@@ -1,0 +1,86 @@
+body {
+    display: block;
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 300px;
+    background-color: #1f1f1f;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.img-saad{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 5000px;
+    margin-top: 30px;
+}
+
+.name{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.name h5{
+    color: #b9d060;
+    line-height: 0px;
+    margin-bottom: 30px;
+    font-size: 14.5px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.attribution{
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 40px;
+    margin-bottom: 15px;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #333333;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+    color: black;
+}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+@media (max-width: 375px) {
+    .container{
+        margin: 0px 0px;
+        padding: 5px;
+
+    }
+}
